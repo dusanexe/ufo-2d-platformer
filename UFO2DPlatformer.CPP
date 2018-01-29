@@ -14,7 +14,7 @@
 #define KeyLeft		75
 #define	KeyRight	77
 #define	KeyEsc		27
-#define KeySpace    32
+#define KeySpace    	32
 
 void ControlPlayer(int *rectPosX,int *rectPosY,int *getkey,int *speed);
 void TextOnTop(int *x);
@@ -70,7 +70,7 @@ main()
 		ControlPlayer( &rectPosX, &rectPosY, &getkey, &speed);
 		TextOnTop( &x);
 		DrawSun( &x, &y);
-        DrawShip();
+        	DrawShip();
 
 		if(bi<=350)
         {bi++;}
@@ -155,7 +155,7 @@ void DogLoop(int *v,int *d)
 	if(*v>=385)
 	{*d+=5;}
 	if(*d>=380)
-    {*d=385;}
+    	{*d=385;}
  }
 
 
