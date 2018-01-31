@@ -39,7 +39,7 @@ void DrawShip();
 /*start main program*/
 main()
 {
-    DWORD screenWidth = GetSystemMetrics(SM_CXSCREEN);
+    	DWORD screenWidth = GetSystemMetrics(SM_CXSCREEN);
 	DWORD screenHeight = GetSystemMetrics(SM_CYSCREEN);
 	initwindow(800, 600, "", -3, -3);
 	//int gd = DETECT,gm;
@@ -54,8 +54,7 @@ main()
 	int rectPosX = 100, rectPosY = 100, getkey, speed = 10; //player parameters
 	int w;
 
-       //	int r=50;
-	int page=0;
+       	int page=0;
 	/*infinity while loop*/
 	while(1)
 	{
@@ -352,7 +351,7 @@ void DrawBomb(int *bomb)
 	bar(400,70+*bomb,420,120+*bomb);
 	}
 
-/*Draw player creation*/
+/*Draw player*/
 void DrawPlayer(int *rectPosX,int *rectPosY)
 {
 	setcolor(YELLOW);
