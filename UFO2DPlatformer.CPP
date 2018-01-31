@@ -16,23 +16,23 @@
 #define	KeyEsc		27
 #define KeySpace    	32
 
-void ControlPlayer(int *rectPosX,int *rectPosY,int *getkey,int *speed);
-void TextOnTop(int *x);
-void DrawSun(int *x,int *y);
-void DrawStars(int *s, int *sx, int *sy);
-void DrawBomb(int *bomb);
-void BombLoop(int *bomb);
-void DrawBird(int *bi);
-void DogLoop(int *v,int *d);
-void NpcKidLoop(int *d,int *kid);
-void DrawNpcKid(int *kid);
+void ControlPlayer(int *,int *,int *,int *);
+void TextOnTop(int *);
+void DrawSun(int *,int *);
+void DrawStars(int *, int *, int *);
+void DrawBomb(int *);
+void BombLoop(int *);
+void DrawBird(int *);
+void DogLoop(int *,int *);
+void NpcKidLoop(int *,int *);
+void DrawNpcKid(int *);
 void DrawLadders();
 void DrawBuilding();
-void DrawNpcMan(int *v,int *h);
-void DrawNpcDog(int *d);
+void DrawNpcMan(int *,int *);
+void DrawNpcDog(int *);
 void DrawRoadLine();
 void DrawBarierBox();
-void DrawPlayer(int *rectPosX,int *rectPosY);
+void DrawPlayer(int *,int *);
 void DrawShip();
 
 
