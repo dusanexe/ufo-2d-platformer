@@ -73,7 +73,7 @@ main()
         	DrawShip();
 
 		if(bi<=350)
-        {bi++;}
+        	{bi++;}
 
 		DrawBird(&bi);
 
