@@ -1,5 +1,6 @@
-/*C Graphic app created by zombieexecutioner 2018*/
-/* UFO 2D Platformer */
+/* UFO 2D Platformer*/
+/*C Graphic app created Jan 2018*/
+
 
 
 #include<stdio.h>
