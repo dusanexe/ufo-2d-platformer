@@ -1,5 +1,5 @@
 <h2> ufo-2d-platformer </h2>
-this game or app is created in C graphics using library graphics.h and it can be compiled for MS-DOS or Windows.
+This game or app is created in C graphics using library graphics.h and it can be compiled for MS-DOS or Windows.
 
 <h3> Compileing tutorial: </h3>
 You need to install Code::blocks 16.01 first. </br>
@@ -17,7 +17,7 @@ At 'Other linker options:' copy this: </br>
 -loleaut32 </br>
 -lole32 </br>
 </br>
-thats it, click 'ok'. </br>
+That's it, click 'ok'. </br>
 </br>
 Open and compile the file 'UFO2DPlatformer.CPP' </br>
 </br>
