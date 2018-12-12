@@ -2,11 +2,11 @@
 This game or app is created in C graphics using library graphics.h and it can be compiled for MS-DOS or Windows.
 
 <h3> Compile tutorial: </h3>
-You need to install Code::blocks 16.01 first. </br>
+You need to install Code::Blocks 16.01 first. </br>
 Than download WinBGIm 6.0 library for MingW 5.x.x at this site:
 http://winbgim.codecutter.org/ </br>
-Copy files in your Code::blocks MinGW folder </br>
-When u open Code::blocks 16.01 go to Settings>Compiler.. and click on 'Linker settings' tab. </br>
+Copy files in your Code::Blocks MinGW folder </br>
+When u open Code::Blocks 16.01 go to Settings>Compiler.. and click on 'Linker settings' tab. </br>
 There in 'Link libraries' find and add "libbgia.a" that you coped in MinGW earlier. </br>
 At 'Other linker options:' copy this: </br>
 </br>
