@@ -1,7 +1,7 @@
 <h2> ufo-2d-platformer </h2>
 This game or app is created in C graphics using library graphics.h and it can be compiled for MS-DOS or Windows.
 
-<h3> Compileing tutorial: </h3>
+<h3> Compile tutorial: </h3>
 You need to install Code::blocks 16.01 first. </br>
 Than download WinBGIm 6.0 library for MingW 5.x.x at this site:
 http://winbgim.codecutter.org/ </br>
