@@ -9,17 +9,18 @@ Copy files in your Code::blocks MinGW folder </br>
 When u open Code::blocks 16.01 go to Settings>Compiler.. and click on 'Linker settings' tab. </br>
 There in 'Link libraries' find and add "libbgia.a" that you coped in MinGW earlier. </br>
 At 'Other linker options:' copy this: </br>
+</br>
 -lbgi </br>
 -lgdi32 </br>
 -lcomdlg32 </br>
 -luuid </br>
 -loleaut32 </br>
 -lole32 </br>
-
+</br>
 thats it, click 'ok'. </br>
-
+</br>
 Open and compile the file 'UFO2DPlatformer.CPP' </br>
-
+</br>
 This tutorial will work for Windows systems. </br>
 
 <h2>Screenshots</h2>
