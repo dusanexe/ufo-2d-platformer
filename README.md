@@ -4,7 +4,7 @@ this game or app is created in C graphics using library graphics.h and it can be
 <h3> Compileing tutorial: </h3>
 You need to install Code::blocks 16.01 first.
 Than download WinBGIm 6.0 library for MingW 5.x.x at this site:
-http://winbgim.codecutter.org/
+http://winbgim.codecutter.org/ </br>
 Copy files in your Code::blocks MinGW folder
 When u open Code::blocks 16.01 go to Settings>Compiler.. and click on 'Linker settings' tab.
 There in 'Link libraries' find and add "libbgia.a" that you coped in MinGW earlier.
